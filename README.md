@@ -1,4 +1,4 @@
-### 李建涛([github.io/bone38ljtnn](https://github.io/bone38ljtnn))
+### 李建涛
 qq：2419867694  
 email：ljt7826@stu.ouc.edu.cn  
 
