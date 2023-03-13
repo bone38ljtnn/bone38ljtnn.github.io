@@ -7,3 +7,6 @@ Motif Prediction with Graph Neural Networks [Link](https://dl.acm.org/doi/10.114
 Scalable Motif Counting for Large-scale Temporal Graphs [Link](https://arxiv.org/abs/2204.09236)  
 ### 在读论文
 Towards Learning to Discover Money Laundering Sub-network in Massive [Link](yangy.org/works/gnn/AAAI23_Laundering.pdf)  
+
+### 小玩意
+聪明人讲话的方式 [Link](聪明人讲话的方式.html)
