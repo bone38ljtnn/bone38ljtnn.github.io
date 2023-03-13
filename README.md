@@ -17,4 +17,4 @@ email：ljt7826@stu.ouc.edu.cn
 ### 好用的链接
 1. 聪明人讲话的方式 [Link](聪明人讲话的方式.html)  
 2. 天天象棋纯净网页版 [Link](https://h5login.qqchess.qq.com/)  
-3. 
+3. WinRAR无广告版 [zip](资源/winrar.zip)
