@@ -12,7 +12,9 @@ email：ljt7826@stu.ouc.edu.cn
 3. Zhongqiang Gao#, Chuanqi Cheng#, Yanwei Yu*, Lei Cao, Chao Huang, Junyu Dong. Scalable Motif Counting for Large-scale Temporal Graphs. Proceedings of 38th IEEE International Conference on Data Engineering (ICDE 2022), May 9th-12th, 2022, Kuala Lumpur, Malaysia. [Link](https://arxiv.org/abs/2204.09236)  
 
 ### 在读论文
-Towards Learning to Discover Money Laundering Sub-network in Massive [Link](yangy.org/works/gnn/AAAI23_Laundering.pdf)  
+1. Towards Learning to Discover Money Laundering Sub-network in Massive [Link](yangy.org/works/gnn/AAAI23_Laundering.pdf)  
 
-### 小玩意
-聪明人讲话的方式 [Link](聪明人讲话的方式.html)
+### 好用的链接
+1. 聪明人讲话的方式 [Link](聪明人讲话的方式.html)  
+2. 天天象棋纯净网页版 [Link](https://h5login.qqchess.qq.com/)  
+3. 
