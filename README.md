@@ -14,7 +14,7 @@ email：ljt7826@stu.ouc.edu.cn
 ### 在读论文
 1. Towards Learning to Discover Money Laundering Sub-network in Massive [Link](yangy.org/works/gnn/AAAI23_Laundering.pdf)  
 
-### 好用的链接
+### 好用的好玩的
 1. 聪明人讲话的方式 [Link](聪明人讲话的方式.html)  
 2. 天天象棋纯净网页版 [Link](https://h5login.qqchess.qq.com/)  
 3. WinRAR无广告版 [zip](资源/winrar.zip)
