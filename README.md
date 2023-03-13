@@ -1,7 +1,5 @@
 ### 李建涛
 qq：2419867694  
-
-
 那里没有兴趣，哪里就没有回忆。  
 ### 论文阅读笔记
 [论文阅读：Motif Prediction with Graph Neural Networks, KDD, August 14-18, 2022](blog/MotifPforGNN)  
