@@ -151,7 +151,7 @@ motif预测依赖于对于点的标签。你比如预测一个星形motif，肯�
 表6表7两个实验结果本别是对Yeast数据集预测密集motifs的结果，对Power稀疏数据集预测结果。两个实验具有与表5实验相似的实验结果。
   
   
- # [RETURN](bone38ljtnn.github.io)   ,   [TOP](#)
+ # THE END     [<--](https://bone38ljtnn.github.io)   ,   [^](#)
 
 
 
