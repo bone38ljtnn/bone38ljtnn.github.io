@@ -48,7 +48,7 @@ motif预测依赖于对于点的标签。你比如预测一个星形motif，肯�
 
 
 
-![image-20221125193528755](picture/1.png)
+![image-20221125193528755](https://raw.githubusercontent.com/bone38ljtnn/picture/main/1.png)
 
 ### 总体介绍
 
@@ -66,7 +66,7 @@ motif预测依赖于对于点的标签。你比如预测一个星形motif，肯�
 
 每一条边都属于不同的集合。文中的介绍如图。
 
-![image-20221127155241138](picture/2.png)
+![image-20221127155241138](https://raw.githubusercontent.com/bone38ljtnn/picture/main/2.png)
 
 其中蓝色的线代表包含在要预测motif实例的边，红色线代表不包含在motif的边，黑色则是无关紧要的边。其中，实线表示数据集已经存在的边，虚线表示不存在的边。例如蓝色虚线Em,e表示的是包含在motif的边且在数据集中不存在，红色实线-Em,d,e则表示不包含在motif的边且在数据集中已经存在。
 
@@ -130,7 +130,7 @@ motif预测依赖于对于点的标签。你比如预测一个星形motif，肯�
 
 ## 实验
 
-![image-20221128161525783](picture/3.png)
+![image-20221128161525783](https://raw.githubusercontent.com/bone38ljtnn/picture/main/3.png)
 
 第一个表5的实验，baseline是Common Neighbors，Adamic-Adar，Jaccard三个链接预测的方法以及使用GNN的SEAL方法，然后使用的链接预测分数是Mul，Min，Avg三种，评估标准是AUC，即曲线下面积，一种评估分类模型准确性的度量标准。数据集是USAir和Yeast。
 
@@ -146,7 +146,7 @@ motif预测依赖于对于点的标签。你比如预测一个星形motif，肯�
 
 
 
-![image-20221128162821218](picture/4.png)
+![image-20221128162821218](https://raw.githubusercontent.com/bone38ljtnn/picture/main/4.png)
 
 表6表7两个实验结果本别是对Yeast数据集预测密集motifs的结果，对Power稀疏数据集预测结果。两个实验具有与表5实验相似的实验结果。
 
