@@ -1,7 +1,7 @@
 ### 李建涛
+<img align="right" width="100" weight="100" src="https://raw.githubusercontent.com/bone38ljtnn/picture/main/head.jpg">
 qq：2419867694  
 那里没有兴趣，哪里就没有回忆。  
-<img align="right" src="https://raw.githubusercontent.com/bone38ljtnn/picture/main/head.jpg">
 ### 论文阅读笔记
 论文阅读：Motif Prediction with Graph Neural Networks, KDD, August 14-18, 2022 [Link](blog/MotifPforGNN)  
 
