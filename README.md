@@ -5,8 +5,8 @@ qq：2419867694
 那里没有兴趣，哪里就没有回忆。  
 ### 笔记
 论文阅读：Motif Prediction with Graph Neural Networks, KDD, August 14-18, 2022 [Link](blog/MotifPforGNN)  
-dm课程笔记：1 [Link](blog/dm1)  
-dm课程笔记：2 [Link](blog/dm2)
+dm课程笔记1：Data mining  KDD knowledge discovery from data [Link](blog/dm1)  
+dm课程笔记2：数据集类型和基本的统计学的方法 [Link](blog/dm2)
 
 ### 已读论文
 1. Ashwin Paranjape, Austin R. Benson, and Jure Leskovec. 2017. Motifs in Temporal Networks. In Proceedings of the Tenth ACM International Conference on Web Search and Data Mining (WSDM '17). Association for Computing Machinery, New York, NY, USA, 601–610. [https://doi.org/10.1145/3018661.3018731](https://dl.acm.org/doi/10.1145/3018661.3018731)  
