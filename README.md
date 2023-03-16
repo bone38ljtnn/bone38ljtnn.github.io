@@ -5,7 +5,7 @@ qq：2419867694
 那里没有兴趣，哪里就没有回忆。  
 ### 笔记
 论文阅读：Motif Prediction with Graph Neural Networks, KDD, August 14-18, 2022 [Link](blog/MotifPforGNN)  
-dm课程笔记：1 [Link](blog/dm1)
+dm课程笔记：1 [Link](blog/dm1)  
 dm课程笔记：2 [Link](blog/dm2)
 
 ### 已读论文
