@@ -14,7 +14,7 @@ DM课程笔记2：数据集类型和基本的统计学的方法 [Link](blog/dm2)
 3. Zhongqiang Gao#, Chuanqi Cheng#, Yanwei Yu*, Lei Cao, Chao Huang, Junyu Dong. Scalable Motif Counting for Large-scale Temporal Graphs. Proceedings of 38th IEEE International Conference on Data Engineering (ICDE 2022), May 9th-12th, 2022, Kuala Lumpur, Malaysia. [Link](https://arxiv.org/abs/2204.09236)  
 
 ### 在读论文
-1. Towards Learning to Discover Money Laundering Sub-network in Massive [Link](yangy.org/works/gnn/AAAI23_Laundering.pdf)  
+1. Towards Learning to Discover Money Laundering Sub-network in Massive [Link](https://yangy.org/works/gnn/AAAI23_Laundering.pdf)  
 
 ### 好用的好玩的
 1. 聪明人讲话的方式 [Link](资源/聪明人讲话的方式.html)  
