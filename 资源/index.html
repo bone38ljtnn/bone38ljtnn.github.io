@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body{
+      background-color: antiquewhite;
+    }
+    h1{
+      margin-top:40px;
+      text-align: center;
+      color:brown;
+    }
+    h4{
+      text-align: center;
+      color:brown;
+    }
+    #items{
+      margin:50px;
+      background-color:tan;
+      border-radius: 25px;
+      padding:30px 50px 70px 50px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    kbd{
+      border-radius: 5px;
+      padding: 5px;
+      border: 1px solid brown;
+    }
+    .item{
+      width:130px;
+      height:100px;
+      margin:0px 10px 50px 10px;
+      background-repeat: no-repeat;
+      background-position: center bottom;
+      text-align: center;
+    }
+    span{
+      color:green;
+    }
+  </style>
+  <script src="data.js"></script>  <!-- 引入 data.js 文件 -->
+</head>
+
+<body>
+  <h1>物品一览表</h1>
+  <h4>可以按快捷键&nbsp;<kbd>ctrl</kbd>+<kbd>F</kbd>&nbsp;进行搜索</h4>
+  <div id="items"></div>
+  <script>
+    const itemNode=document.getElementById("items");
+    function createAddElement(name,id){
+      let item=document.createElement("div");
+      item.classList.add("item");
+      item.style.backgroundImage=`url(./assets/${id}.png)`;
+      item.innerHTML=name+`<br/><span>${id}</span>`;
+      itemNode.appendChild(item);
+    }
+    for(let i in record){
+      switch(i){
+        case "equips":
+        case "props":{
+          let dataArray=record[i]
+          for(let s in dataArray){
+            createAddElement(dataArray[s].name,dataArray[s].id);
+          }
+        }
+        default:null;
+      }
+    }
+  </script>
+</body>
+
+</html>
