@@ -101,7 +101,7 @@ body {
   padding: 2px 6px;
 }
 
-.markdown-body::before {
+.container-lg.markdown-body::before {
   content: "root@github-pages:~$ ./profile";
   display: block;
   margin-bottom: 18px;
