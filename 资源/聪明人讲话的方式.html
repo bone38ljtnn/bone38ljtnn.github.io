@@ -1,63 +1,235 @@
-<html >
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>聪明人讲话的方式</title>
 
-<h1>聪明人讲话的方式</h1>
-
-<meta 
-name="viewport" 
-content="width=device-width, initial-scale=1" 
-http-equiv="content-Type" 
-content="text/html; charset=utf-8"
-/>
-
-<textarea style = "width: 300px; height : 100px;" id = 'b1'> </textarea>
-
-<br><br>
-
-<br>
-
-<textarea style = "width: 300px; height : 100px;" id = 'b2'> </textarea>
-
-<br>
-
-<button onclick = 'ChouXiang();'>中文转抽象</button>                                 <button onclick = 'BuChouXiang()'>抽象转中文</button>
-
-<script>
-function sth(str){
-　　　　var val="";
-　　　　for(var i = 0; i < str.length; i++){
-
-　　　　　　if(val == "")
-　　　　　　　　val = str.charCodeAt(i).toString(16);
-　　　　　　else
-　　　　　　　　val += "," + str.charCodeAt(i).toString(16);
-　　　　}
-　　　　return val;
-}
-function hts(str){
-　　　　var val="";
-　　　　var arr = str.split(",");
-　　　　for(var i = 0; i < arr.length; i++){
-　　　　　　val += String.fromCharCode(parseInt(arr[i],16));
-　　　　}
-console.log(val);
-　　　　return val;
-}
-
-    function ChouXiang(){
-        var t1 = document.getElementById('b1').value;
-        var t2k = document.getElementById('b2');
-        t2k.value = sth(t1);
+  <style>
+    * {
+      box-sizing: border-box;
     }
 
-
-    function BuChouXiang(){
-        var t1 = document.getElementById('b1').value;
-        var t2k = document.getElementById('b2');
-        t2k.value = hts(t1);
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+      background:
+        radial-gradient(circle at 20% 10%, #ffe08a 0, transparent 28%),
+        radial-gradient(circle at 85% 18%, #ff9fb2 0, transparent 26%),
+        radial-gradient(circle at 50% 90%, #98e6b8 0, transparent 30%),
+        linear-gradient(135deg, #fff7d6, #ffe1e9 45%, #dcf8e8);
+      color: #2f2a24;
+      padding: 20px;
     }
-    
-</script>
 
+    .page {
+      width: 100%;
+      max-width: 680px;
+      margin: 0 auto;
+      padding-top: 28px;
+    }
 
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(28px, 8vw, 46px);
+      line-height: 1.12;
+      letter-spacing: 0;
+    }
 
+    .subtitle {
+      margin: 0 0 24px;
+      color: #6f6258;
+      font-size: 15px;
+    }
+
+    .panel {
+      background: rgba(255, 255, 255, 0.74);
+      border: 1px solid rgba(255, 255, 255, 0.9);
+      border-radius: 8px;
+      padding: 16px;
+      box-shadow: 0 18px 48px rgba(199, 84, 96, 0.18);
+      backdrop-filter: blur(14px);
+    }
+
+    label {
+      display: block;
+      margin: 0 0 8px;
+      font-weight: 700;
+      color: #4a4038;
+    }
+
+    textarea {
+      width: 100%;
+      min-height: 150px;
+      resize: vertical;
+      border: 2px solid transparent;
+      border-radius: 8px;
+      padding: 14px;
+      font-size: 16px;
+      line-height: 1.6;
+      color: #2f2a24;
+      background: #fffdf7;
+      outline: none;
+      box-shadow: inset 0 0 0 1px rgba(120, 84, 62, 0.12);
+    }
+
+    textarea:focus {
+      border-color: #ff9b54;
+      box-shadow: 0 0 0 4px rgba(255, 155, 84, 0.2);
+    }
+
+    .field + .field {
+      margin-top: 16px;
+    }
+
+    .actions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    button {
+      border: 0;
+      border-radius: 8px;
+      min-height: 46px;
+      padding: 0 14px;
+      font-size: 16px;
+      font-weight: 800;
+      color: #3a2418;
+      cursor: pointer;
+      box-shadow: 0 8px 18px rgba(120, 70, 40, 0.18);
+    }
+
+    button:active {
+      transform: translateY(1px);
+    }
+
+    .orange {
+      background: linear-gradient(180deg, #ffd36a, #ff9b54);
+    }
+
+    .green {
+      background: linear-gradient(180deg, #baf28f, #42d392);
+    }
+
+    .tools {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-top: 12px;
+    }
+
+    .ghost {
+      background: rgba(255, 255, 255, 0.72);
+      color: #6a5345;
+      box-shadow: inset 0 0 0 1px rgba(120, 84, 62, 0.14);
+    }
+
+    @media (max-width: 520px) {
+      body {
+        padding: 14px;
+      }
+
+      .page {
+        padding-top: 12px;
+      }
+
+      .panel {
+        padding: 12px;
+      }
+
+      textarea {
+        min-height: 130px;
+      }
+
+      .actions,
+      .tools {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="page">
+    <h1>聪明人讲话的方式</h1>
+    <p class="subtitle">中文和抽象编码互转，小屏幕也能舒服用。</p>
+
+    <section class="panel">
+      <div class="field">
+        <label for="b1">输入</label>
+        <textarea id="b1" placeholder="在这里输入中文或抽象编码"></textarea>
+      </div>
+
+      <div class="field">
+        <label for="b2">输出</label>
+        <textarea id="b2" placeholder="结果会出现在这里"></textarea>
+      </div>
+
+      <div class="actions">
+        <button class="orange" onclick="ChouXiang()">中文转抽象</button>
+        <button class="green" onclick="BuChouXiang()">抽象转中文</button>
+      </div>
+
+      <div class="tools">
+        <button class="ghost" onclick="CopyResult()">复制结果</button>
+        <button class="ghost" onclick="ClearAll()">清空</button>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    function sth(str) {
+      var val = "";
+
+      for (var i = 0; i < str.length; i++) {
+        if (val === "") {
+          val = str.charCodeAt(i).toString(16);
+        } else {
+          val += "," + str.charCodeAt(i).toString(16);
+        }
+      }
+
+      return val;
+    }
+
+    function hts(str) {
+      var val = "";
+      var arr = str.split(",");
+
+      for (var i = 0; i < arr.length; i++) {
+        var item = arr[i].trim();
+
+        if (item !== "") {
+          val += String.fromCharCode(parseInt(item, 16));
+        }
+      }
+
+      return val;
+    }
+
+    function ChouXiang() {
+      var input = document.getElementById("b1").value;
+      document.getElementById("b2").value = sth(input);
+    }
+
+    function BuChouXiang() {
+      var input = document.getElementById("b1").value;
+      document.getElementById("b2").value = hts(input);
+    }
+
+    function CopyResult() {
+      var output = document.getElementById("b2");
+      output.select();
+      document.execCommand("copy");
+    }
+
+    function ClearAll() {
+      document.getElementById("b1").value = "";
+      document.getElementById("b2").value = "";
+    }
+  </script>
+</body>
 </html>
