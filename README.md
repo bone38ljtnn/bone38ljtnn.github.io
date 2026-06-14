@@ -1,5 +1,10 @@
 ### 李建涛(Jiantao Li)
-![IP地址](https://openapi.lddgo.net/base/gservice/api/v1/ip-card)
+
+<img
+  src="https://openapi.lddgo.net/base/gservice/api/v1/ip-card"
+  alt="IP地址"
+  referrerpolicy="no-referrer"
+/>
 
 QQ:2419867694
 
